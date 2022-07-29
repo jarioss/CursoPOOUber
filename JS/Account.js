@@ -1,7 +1,18 @@
-function Account() {
-    this.id;
-    this.name;
-    this.doc;
-    this.email;
-    this.password;
+// function Account(name, doc) {
+//     this.id;
+//     this.name = name;
+//     this.doc = doc;
+//     this.email;
+//     this.password;
+// }
+
+class Account {
+
+    constructor(name, doc) {
+        this.id
+        this.name = name
+        this.doc = doc
+        this.email
+        this.password
+    }
 }
