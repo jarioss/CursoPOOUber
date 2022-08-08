@@ -9,5 +9,14 @@ class UberX extends Car {
         $this->brand = $brand;
         $this->model = $model;
     }
+
+    public function setPassenger($passenger)
+    {
+     if($passenger == 4){
+         $this->passenger = $passenger;
+     } else{
+         echo "<br> Este vehículo es para 4 personas";
+     }
+    }
 }
 ?>
