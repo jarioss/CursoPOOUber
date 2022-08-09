@@ -14,8 +14,14 @@ class UberPool extends Car {
      if($passenger == 4){
          $this->passenger = $passenger;
      } else{
-         echo "<br> Este vehículo es para 4 personas";
+         echo "<br> Este vehículo es para 4 personas<br>";
      }
+    }
+    public function printDataCar()
+    {   
+        parent::printDataCar();
+        echo "Model: $this->model 
+        <br> Brand: $this->brand <br>";
     }
 }
 ?>
